@@ -373,16 +373,35 @@
             background: rgba(187, 134, 252, 0.8);
         }
     </style>
-</head>
-<body>
-    <div class="background"></div>
+    
+<header class="top-nav" style="
+justify-content:center;
+background:linear-gradient(90deg,#ff0000,#ff9800,#ffeb3b,#4caf50,#2196f3,#673ab7,#e91e63);
+background-size:400% 400%;
+animation:gradientMove 8s ease infinite;
+padding:12px 20px;
+border-bottom:2px solid rgba(255,255,255,.2);
+">
 
-    <header class="top-nav">
-        <a href="/" class="tv link"><i class="fas fa-tv me-2"></i>Live TV</a>
-        <div class="theme-toggle" id="themeToggle">
-            <i class="fas fa-moon"></i>
-        </div>
-    </header>
+<div style="
+color:#fff;
+font-size:18px;
+font-weight:700;
+text-align:center;
+text-shadow:1px 1px 4px rgba(0,0,0,.5);
+">
+🎉 এই সাইটে আপনাকে স্বাগতম 🎉
+</div>
+
+</header>
+
+<style>
+@keyframes gradientMove{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+</style>
 
     <div class="main-container">
         <div class="row g-4">
