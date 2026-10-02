@@ -1,0 +1,6 @@
+#EXTM3U
+
+# Add your own authorized channel streams below.
+# Example:
+#EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="TV",Channel Name
+https://example.com/channel.m3u8
